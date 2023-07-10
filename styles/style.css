@@ -60,8 +60,31 @@ font-weight: 800;
 .deal-img{
   width: 50%;
   text-align: center;
+  margin-right: 50px;
 }
 .deal-img img{
   width: 318px;
-height: 420px;
+}
+/* finished hot deal area */
+/* start insta area */
+.insta-container{
+  width: 80%;
+  margin: auto;
+}
+.insta-info{
+  text-align: center;
+  margin-top: 100px;
+}
+.insta-info h1{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+}
+.insta-info p{
+  color: gray;
+  font-size: 18px;
+}
+.cards{
+  display: flex;
+  gap: 20px;
 }
