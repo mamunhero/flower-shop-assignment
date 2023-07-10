@@ -88,3 +88,17 @@ font-weight: 800;
   display: flex;
   gap: 20px;
 }
+/* finished insta area */
+/* start get lates deals */
+.get-container{
+  background-image: url(../images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  background-blend-mode: overlay;
+  height: 40vh;
+  align-items: center;
+}
+.get-info{
+  text-align: center;
+}
