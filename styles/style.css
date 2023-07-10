@@ -9,6 +9,7 @@
   border: 0;
   padding: 15px 25px;
   align-items: center;
+  /* width: 15%; */
 }
 /* start banner section */
 header{
@@ -88,17 +89,42 @@ font-weight: 800;
   display: flex;
   gap: 20px;
 }
+.icon-img{
+  width: 100%;
+}
 /* finished insta area */
 /* start get lates deals */
 .get-container{
   background-image: url(../images/Rectangle\ 9.png);
   background-repeat: no-repeat;
-  background-position:center;
   background-size: cover;
   background-blend-mode: overlay;
-  height: 40vh;
+  border-radius: 8px;
+  width: 80%;
+  margin: auto;
+  height: 55vh;
   align-items: center;
 }
 .get-info{
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 100px;
   text-align: center;
+}
+.get-info h1{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+}
+.get-info p{
+  color: gray;
+  font-size: 18px;
+}
+.get-info input{
+  background-color: #FFFFFF;
+  border: 0;
+  padding: 15px 25px;
+  width: 40%;
+  border-radius: 8px;
+  font-size: 18px;
 }
