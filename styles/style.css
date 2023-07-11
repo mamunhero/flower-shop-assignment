@@ -36,6 +36,59 @@ font-weight: 800;
 .banner-content{
 }
 /* finished banner section */
+/* start feature section */
+.feature-photo-one{
+  background-color:rgba(167, 33, 98, 0.15);
+  width: 500px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background-image: url(../images/pngwing\ 6.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+.feature-photo-two{
+  background-color:rgba(5, 151, 160, 0.15);
+  width: 500px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background-image: url(../images/pngwing\ 5.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+.feature-photo-three{
+  background-color:rgba(71, 125, 17, 0.15);
+  width: 500px;
+  height: 500px;
+  border-radius: 300px 300px 0px 0px;
+  background-image: url(../images/pngwing\ 7.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}
+.feature-container{
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+.feature-title{
+  color: #272727;
+  font-size: 35px;
+  font-weight: 800;
+  text-align: center;
+  margin-top:100px ;
+}
+.feature-description{
+  color: gray;
+  font-size: 18px;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-bottom: 50px;
+}
+/* finish feature section area */
 /* start support area */
 .support-container{
   width: 80%;
@@ -43,6 +96,7 @@ font-weight: 800;
   border-radius: 8px;
   background: rgba(39, 39, 39, 0.05);
   height: 30vh;
+  margin-bottom: 100px;
 }
 .support-info{
   display: flex;
@@ -60,8 +114,7 @@ font-weight: 800;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 50px;
 }
 .deal-info{
   width: 50%;
@@ -102,6 +155,9 @@ font-weight: 800;
 .insta-info p{
   color: gray;
   font-size: 18px;
+  width: 50%;
+  margin: auto;
+  margin-bottom: 50px;
 }
 .cards{
   display: flex;
