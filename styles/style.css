@@ -20,8 +20,8 @@ header{
   width: 80%;
   margin: auto;
   align-items: center;
-  
 }
+
 .banner-title{
 color: #272727;
 font-size: 35px;
@@ -44,8 +44,8 @@ font-weight: 800;
   border-radius: 300px 300px 0px 0px;
   background-image: url(../images/pngwing\ 6.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
+  background-position: bottom;
+  background-size: auto 80%;
 }
 .feature-photo-two{
   background-color:rgba(5, 151, 160, 0.15);
@@ -54,8 +54,8 @@ font-weight: 800;
   border-radius: 300px 300px 0px 0px;
   background-image: url(../images/pngwing\ 5.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
+  background-position: bottom;
+  background-size: auto 80%;
 }
 .feature-photo-three{
   background-color:rgba(71, 125, 17, 0.15);
@@ -64,8 +64,8 @@ font-weight: 800;
   border-radius: 300px 300px 0px 0px;
   background-image: url(../images/pngwing\ 7.png);
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 100%;
+  background-position: bottom;
+  background-size: auto 80%;
 }
 .feature-container{
   display: flex;
@@ -220,3 +220,30 @@ footer{
   font-size: 18px;
 }
 /* finished footer area */
+/* start contract area  */
+.contract-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.contract-title{
+  color: #272727;
+  font-size: 35px;
+  text-align: center;
+  font-weight: 800;
+}
+.left-side-contract{
+  /* width: 50%; */
+  /* margin: auto; */
+}
+.contract input{
+  display: block;
+  color: black;
+  width: 100%;
+  padding: 18px 35px;
+  margin-bottom: 25px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: 1px solid black;
+
+}
